@@ -13,7 +13,7 @@ class FirstexampleApplicationTests {
 public static Logger logger=LoggerFactory.getLogger(FirstexampleApplicationTests.class);
 	@Test
 	  void contextLoads() {
-		logger.info("Test Case Executing....");
+		logger.info("we are testing for pipelines ");
 		assertEquals(true, true);
 		
 	}
