@@ -12,7 +12,7 @@ class FirstexampleApplicationTests {
 	
 
 	@Test
-	  contextLoads() {
+	  void contextLoads() {
 		logger.info("Test Case Executing....");
 		assertEquals(true, true);
 		
