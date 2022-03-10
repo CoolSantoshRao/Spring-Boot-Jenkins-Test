@@ -10,7 +10,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class FirstexampleApplicationTests {
 	
-public static Logger logger=LoggerFactory.getLogger(FirstexampleApplicationTests.class);
+
 	@Test
 	  void contextLoads() {
 		logger.info("we are testing for pipelines ");
