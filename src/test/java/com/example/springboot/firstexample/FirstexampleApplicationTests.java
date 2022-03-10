@@ -12,8 +12,8 @@ class FirstexampleApplicationTests {
 	public static Logger logger=LoggerFactory.getLogger(FirstexampleApplicationTests.class);
 
 	@Test
-	 contextLoads() {
-		logger.info("Test Case Executing");
+	 void contextLoads() {
+		logger.info("Test Case Executing....");
 		assertEquals(true, true);
 		
 	}
